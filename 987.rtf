@@ -11,24 +11,23 @@
 \pard\pardeftab720\sl360\partightenfactor0
 
 \f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec4 int\cf2 \cb3 \strokec5  \cf2 \cb3 \strokec6 n\cf2 \cb3 \strokec5  = \cf2 \cb3 \strokec7 6\cf2 \cb3 \strokec5 ;\
-\cf2 \cb3 \strokec4 int\cf2 \cb3 \strokec5  \cf2 \cb3 \strokec6 f\cf2 \cb3 \strokec5  = \cf2 \cb3 \strokec7 9\cf2 \cb3 \strokec5 ;\
+int n = 6;\
+int f = 9;\
 \pard\pardeftab720\sl360\partightenfactor0
-\cf2 \cb3 \strokec8 if\cf2 \cb3 \strokec5 (\cf2 \cb3 \strokec6 n\cf2 \cb3 \strokec5 +\cf2 \cb3 \strokec6 f\cf2 \cb3 \strokec5  > \cf2 \cb3 \strokec7 30\cf2 \cb3 \strokec5 )\
+\cf2 if(n+f > 30)\
 \{\
-    \cf2 \cb3 \strokec9 Console\cf2 \cb3 \strokec5 .\cf2 \cb3 \strokec10 WriteLine\cf2 \cb3 \strokec5 (\cf2 \cb3 \strokec11 "The answer is greater than 30"\cf2 \cb3 \strokec5 );\
+    Console.WriteLine("The answer is greater than 30");\
 \}\
-\cf2 \cb3 \strokec8 else\cf2 \cb3 \strokec5  \cf2 \cb3 \strokec8 if\cf2 \cb3 \strokec5 (\cf2 \cb3 \strokec6 n\cf2 \cb3 \strokec5 +\cf2 \cb3 \strokec6 f\cf2 \cb3 \strokec5  < \cf2 \cb3 \strokec7 10\cf2 \cb3 \strokec5 )\
+else if(n+f < 10)\
 \
 \{\
-    \cf2 \cb3 \strokec9 Console\cf2 \cb3 \strokec5 .\cf2 \cb3 \strokec10 WriteLine\cf2 \cb3 \strokec5 (\cf2 \cb3 \strokec11 "The answer is not greater then10"\cf2 \cb3 \strokec5 );\
+    Console.WriteLine("The answer is not greater then10");\
 \}\
-\cf2 \cb3 \strokec8 else\cf2 \cb3 \strokec5 \{\
- \cf2 \cb3 \strokec9 Console\cf2 \cb3 \strokec5 .\cf2 \cb3 \strokec10 WriteLine\cf2 \cb3 \strokec5 (\cf2 \cb3 \strokec11 "
-\f1 \cf2 \cb3 \strokec11 \'bc\'c6\'ad\'c8\'a4\'b6\'a9\'f3
-\f0 \cf2 \cb3 \strokec11 30~10"\cf2 \cb3 \strokec5 );\
-    \
+else\{\
+ Console.WriteLine("
+\f1 \'bc\'c6\'ad\'c8\'a4\'b6\'a9\'f3
+\f0 30~10\'94);\
 \}\
 \pard\pardeftab720\sl360\partightenfactor0
-\cf2 \cb1 \strokec12 \
+\cf2 \cb1 \
 }
